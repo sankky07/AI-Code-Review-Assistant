@@ -1,0 +1,11 @@
+### Create User
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "githubId": 123456789,
+  "username": "sanket",
+  "email": "sanket@example.com",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/123456789"
+}
